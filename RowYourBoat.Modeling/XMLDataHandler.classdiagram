@@ -1,0 +1,50 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<logicalClassDesignerModel xmlns:dm0="http://schemas.microsoft.com/VisualStudio/2008/DslTools/Core" xmlns:dm1="http://schemas.microsoft.com/dsltools/Kernel" xmlns:dm2="http://schemas.microsoft.com/dsltools/Component" xmlns:dm3="http://schemas.microsoft.com/dsltools/UseCase" xmlns:dm4="http://schemas.microsoft.com/dsltools/Activity" xmlns:dm5="http://schemas.microsoft.com/dsltools/Interaction" xmlns:dm6="http://schemas.microsoft.com/dsltools/UmlModelLibrary" xmlns:dm7="http://schemas.microsoft.com/dsltools/UmlDiagrams" xmlns:dm8="http://schemas.microsoft.com/dsltools/ModelStore" dslVersion="1.0.0.0" Id="6aefd0de-da31-4714-a482-2941621cfe18" name="XMLDataHandler" linkedPackageId="c6f2e225-35d0-4337-a575-e9b92de4d875" xmlns="http://schemas.microsoft.com/dsltools/LogicalClassDesigner">
+  <ownedCommentsInternal>
+    <comment Id="10a67bc4-b360-47af-8d03-ea2fda3d6a22">
+      <elementDefinition Id="7022b58e-fd91-4079-ae7a-710849929ff7" />
+      <body>Implemented as static class for ease of use.</body>
+      <annotatedElements>
+        <classMoniker Id="370e92f9-3729-4c15-801e-6b1526952ea3" LastKnownName="XMLDataHandler" />
+      </annotatedElements>
+    </comment>
+  </ownedCommentsInternal>
+  <profileInstances>
+    <packageHasProfileInstances Id="441b67dd-aa9e-4613-b4b0-731118308b46">
+      <profileInstance Id="8da3965e-b5cc-4e68-aa8f-6751dda20305" name="StandardProfileL2">
+        <elementDefinition Id="e34d544e-0fea-4ed6-ac5e-1b74119ac791" />
+      </profileInstance>
+      <elementDefinition Id="0caec977-1f8c-4ba3-a7db-8cc9ad9cc73b" />
+    </packageHasProfileInstances>
+    <packageHasProfileInstances Id="37d77698-a437-4b00-a6a5-da3d2373a11e">
+      <profileInstance Id="59b05411-bd07-4ae4-97d4-7706c21a8bc5" name="StandardProfileL3">
+        <elementDefinition Id="532ea607-fb19-44b8-8502-3351b05452be" />
+      </profileInstance>
+      <elementDefinition Id="29349502-908c-4fda-9054-c48619c59ed0" />
+    </packageHasProfileInstances>
+  </profileInstances>
+  <packagedElements>
+    <logicalClassDesignerModelHasTypes>
+      <class Id="370e92f9-3729-4c15-801e-6b1526952ea3" name="XMLDataHandler" isAbstract="false" isLeaf="false" isActiveClass="false">
+        <elementDefinition Id="2fb27560-117f-487a-af57-e203b1729665" />
+        <ownedOperationsInternal>
+          <operation Id="acb7b8ce-800e-4d79-ae02-52720ce68674" name="DeserializeFromReadStream" isLeaf="false" isStatic="false" isAbstract="false" concurrency="Sequential" isQuery="false">
+            <elementDefinition Id="124b509b-9e9c-4803-bb9b-4cdbe493ca57" />
+          </operation>
+          <operation Id="e486fd79-9f40-4cf0-b0e3-67d7df13c685" name="ReadFromFile" isLeaf="false" isStatic="false" isAbstract="false" concurrency="Sequential" isQuery="false">
+            <elementDefinition Id="bd0ed69e-386c-4d76-a81c-bfda75d4d485" />
+          </operation>
+          <operation Id="8b06320d-bdef-4b82-a157-117bc0446308" name="SerializeToWriteStream" isLeaf="false" isStatic="false" isAbstract="false" concurrency="Sequential" isQuery="false">
+            <elementDefinition Id="cfad7f2a-bacc-40bb-b13b-a3bc92b72943" />
+          </operation>
+          <operation Id="97755820-02f4-4e38-ae4d-51704bf51ad3" name="WriteToFile" isLeaf="false" isStatic="false" isAbstract="false" concurrency="Sequential" isQuery="false">
+            <elementDefinition Id="b2ad39ab-8b57-40d6-a6eb-1bc34b9db9d2" />
+          </operation>
+        </ownedOperationsInternal>
+      </class>
+    </logicalClassDesignerModelHasTypes>
+  </packagedElements>
+  <package Id="c6f2e225-35d0-4337-a575-e9b92de4d875" name="RowYourBoat.Modeling">
+    <elementDefinition Id="0821b0ed-5d9a-4970-9cf7-88c8b61425f0" />
+  </package>
+</logicalClassDesignerModel>

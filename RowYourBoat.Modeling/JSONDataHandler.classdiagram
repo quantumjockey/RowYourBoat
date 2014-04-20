@@ -1,0 +1,50 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<logicalClassDesignerModel xmlns:dm0="http://schemas.microsoft.com/VisualStudio/2008/DslTools/Core" xmlns:dm1="http://schemas.microsoft.com/dsltools/Kernel" xmlns:dm2="http://schemas.microsoft.com/dsltools/Component" xmlns:dm3="http://schemas.microsoft.com/dsltools/UseCase" xmlns:dm4="http://schemas.microsoft.com/dsltools/Activity" xmlns:dm5="http://schemas.microsoft.com/dsltools/Interaction" xmlns:dm6="http://schemas.microsoft.com/dsltools/UmlModelLibrary" xmlns:dm7="http://schemas.microsoft.com/dsltools/UmlDiagrams" xmlns:dm8="http://schemas.microsoft.com/dsltools/ModelStore" dslVersion="1.0.0.0" Id="dd0e792e-a832-4ecb-ba63-9dd53677e0d1" name="JSONDataHandler" linkedPackageId="802d296f-03c1-4029-bb8b-39adf57e3949" xmlns="http://schemas.microsoft.com/dsltools/LogicalClassDesigner">
+  <ownedCommentsInternal>
+    <comment Id="3e6d6346-44ee-4965-93bf-20e84172d786">
+      <elementDefinition Id="637b2775-a60a-4eb5-809a-0866c5006110" />
+      <body>Implemented as static class for ease of use.</body>
+      <annotatedElements>
+        <classMoniker Id="457ebe76-fda8-442f-8d0c-da1ac9a876d3" LastKnownName="JSONDataHandler" />
+      </annotatedElements>
+    </comment>
+  </ownedCommentsInternal>
+  <profileInstances>
+    <packageHasProfileInstances Id="70d3c4ee-4280-4344-b33f-e46e11ecec9b">
+      <profileInstance Id="6f5b85e1-5659-495f-b38a-a5b6e5d26a95" name="StandardProfileL2">
+        <elementDefinition Id="e34d544e-0fea-4ed6-ac5e-1b74119ac791" />
+      </profileInstance>
+      <elementDefinition Id="0caec977-1f8c-4ba3-a7db-8cc9ad9cc73b" />
+    </packageHasProfileInstances>
+    <packageHasProfileInstances Id="a63e9aba-f8a2-4cb6-97f7-5eb2eaa74448">
+      <profileInstance Id="9e879317-b2b5-43da-be79-d5568a62f7d4" name="StandardProfileL3">
+        <elementDefinition Id="532ea607-fb19-44b8-8502-3351b05452be" />
+      </profileInstance>
+      <elementDefinition Id="29349502-908c-4fda-9054-c48619c59ed0" />
+    </packageHasProfileInstances>
+  </profileInstances>
+  <packagedElements>
+    <logicalClassDesignerModelHasTypes>
+      <class Id="457ebe76-fda8-442f-8d0c-da1ac9a876d3" name="JSONDataHandler" isAbstract="false" isLeaf="false" isActiveClass="false">
+        <elementDefinition Id="8647a16c-a03a-455a-b7ca-1cabd6721a5a" />
+        <ownedOperationsInternal>
+          <operation Id="0483f40f-899a-4e9b-9fac-054ac7869705" name="ReadFromFile" isLeaf="false" isStatic="false" isAbstract="false" concurrency="Sequential" isQuery="false">
+            <elementDefinition Id="7a393e90-4a2b-4b09-b448-703b4950fb2f" />
+          </operation>
+          <operation Id="067e1235-47c9-4260-b742-1ccacf7b1229" name="WriteToFile" isLeaf="false" isStatic="false" isAbstract="false" concurrency="Sequential" isQuery="false">
+            <elementDefinition Id="931e44bc-802b-4d7c-97bc-49c3c451619e" />
+          </operation>
+          <operation Id="7e08ba00-286d-49fd-8775-cb94ccb8f44a" name="DeserializeFromReadStream" isLeaf="false" isStatic="false" isAbstract="false" concurrency="Sequential" isQuery="false">
+            <elementDefinition Id="d2d0722b-a3e2-46c1-9d44-c7751f2b3904" />
+          </operation>
+          <operation Id="172136a6-73d7-4994-961f-edbf20072877" name="SerializeToWriteStream" isLeaf="false" isStatic="false" isAbstract="false" concurrency="Sequential" isQuery="false">
+            <elementDefinition Id="4ebb39f6-72bb-41f6-b386-eae23c959a97" />
+          </operation>
+        </ownedOperationsInternal>
+      </class>
+    </logicalClassDesignerModelHasTypes>
+  </packagedElements>
+  <package Id="802d296f-03c1-4029-bb8b-39adf57e3949" name="RowYourBoat.Modeling">
+    <elementDefinition Id="0821b0ed-5d9a-4970-9cf7-88c8b61425f0" />
+  </package>
+</logicalClassDesignerModel>
