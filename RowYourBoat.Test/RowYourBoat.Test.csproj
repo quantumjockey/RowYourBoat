@@ -51,8 +51,8 @@
     </Otherwise>
   </Choose>
   <ItemGroup>
-    <Compile Include="Serialization\JSONDataHandlerTest.cs" />
-    <Compile Include="Serialization\XmlDataHandlerTest.cs" />
+    <Compile Include="Serialization\JSONDataHandler_spec.cs" />
+    <Compile Include="Serialization\XmlDataHandler_spec.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>

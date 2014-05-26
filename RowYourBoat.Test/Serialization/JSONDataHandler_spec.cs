@@ -16,7 +16,7 @@ namespace RowYourBoat.Test.Serialization
     /// Unit tests addressing functionality within the "RowYourBoat.Serialization.JSONDataHandler" class.
     /// </summary>
     [TestClass]
-    public class JSONDataHandlerTest
+    public class JSONDataHandler_spec
     {
         ////////////////////////////////////////
         #region Test File Path
@@ -31,7 +31,7 @@ namespace RowYourBoat.Test.Serialization
         /// <summary>
         /// Initializer for test conditions
         /// </summary>
-        public JSONDataHandlerTest()
+        public JSONDataHandler_spec()
         {
             HomoSapien homoSapien = new HomoSapien { Age = 30, Name = "Charlie" };
             JSONDataHandler.WriteToFile(homoSapien, _testFilePath);

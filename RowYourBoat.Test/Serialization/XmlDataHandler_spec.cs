@@ -15,7 +15,7 @@ namespace RowYourBoat.Test.Serialization
     /// Unit tests addressing functionality within the "RowYourBoat.Serialization.XMLDataHandler" class.
     /// </summary>
     [TestClass]
-    public class XmlDataHandlerTest
+    public class XmlDataHandler_spec
     {
         ////////////////////////////////////////
         #region Test File Path
@@ -30,7 +30,7 @@ namespace RowYourBoat.Test.Serialization
         /// <summary>
         /// Initializer for test conditions
         /// </summary>
-        public XmlDataHandlerTest()
+        public XmlDataHandler_spec()
         {
             HomoSapien homoSapien = new HomoSapien { Age = 30, Name = "Charlie" };
             XMLDataHandler.WriteToFile(homoSapien, _testFilePath);
