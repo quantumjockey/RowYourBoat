@@ -12,9 +12,6 @@ using System.Runtime.Serialization;
 
 namespace RowYourBoat.Test.Serialization
 {
-    /// <summary>
-    /// Unit tests addressing functionality within the "RowYourBoat.Serialization.JSONDataHandler" class.
-    /// </summary>
     [TestClass]
     public class JSONDataHandler_spec
     {
@@ -28,9 +25,6 @@ namespace RowYourBoat.Test.Serialization
         ////////////////////////////////////////
         #region Constructor
 
-        /// <summary>
-        /// Initializer for test conditions
-        /// </summary>
         public JSONDataHandler_spec()
         {
             HomoSapien homoSapien = new HomoSapien { Age = 30, Name = "Charlie" };

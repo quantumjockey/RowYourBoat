@@ -11,9 +11,6 @@ using System.IO;
 
 namespace RowYourBoat.Test.Serialization
 {
-    /// <summary>
-    /// Unit tests addressing functionality within the "RowYourBoat.Serialization.XMLDataHandler" class.
-    /// </summary>
     [TestClass]
     public class XmlDataHandler_spec
     {
@@ -27,9 +24,6 @@ namespace RowYourBoat.Test.Serialization
         ////////////////////////////////////////
         #region Constructor
 
-        /// <summary>
-        /// Initializer for test conditions
-        /// </summary>
         public XmlDataHandler_spec()
         {
             HomoSapien homoSapien = new HomoSapien { Age = 30, Name = "Charlie" };
